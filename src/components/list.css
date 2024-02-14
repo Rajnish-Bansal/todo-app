@@ -59,3 +59,10 @@
     border-radius: 0px;
     height: fit-content;
    }
+
+   @media screen and (max-width: 768px) {
+    .task-buttons{
+      /* outline: auto; */
+      margin-right: 1%;
+    }
+   }

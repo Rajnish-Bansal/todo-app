@@ -1,13 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mukta&family=Roboto&display=swap");
 
-.header-div{
-    /* outline: auto; */
-    height: 100%;
-    width: 30%; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 150%;
-    font-weight: bold;
-    font-family: 'Mukta', sans-serif;
+.header-div {
+  /* outline: auto; */
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150%;
+  font-weight: bold;
+  font-family: "Mukta", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .header-div{
+        width: 100%;
+        font-size: larger;
+    }
 }
