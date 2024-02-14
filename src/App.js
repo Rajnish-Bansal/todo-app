@@ -6,21 +6,21 @@ import List from "./components/List";
 
 function App() {
   const [task, setTask] = useState("");
-  const [list, setList] = useState(getStoredValue());
+  const [list, setList] = useState([]);
   const [editIndex, setEditIndex] = useState(null);
 
-  // Load task list from local storage
-  function getStoredValue() {
-    const storedList = JSON.parse(localStorage.getItem("taskList"));
-    if (storedList) {
-      return storedList;
-    }
-  }
+  // // Load task list from local storage
+  // function getStoredValue() {
+  //   const storedList = JSON.parse(localStorage.getItem("taskList"));
+  //   if (storedList) {
+  //     return storedList;
+  //   }
+  // }
 
-  // Save the updated task list to local storage
-  useEffect(() => {
-    localStorage.setItem("taskList", JSON.stringify(list));
-  }, [list]);
+  // // Save the updated task list to local storage
+  // useEffect(() => {
+  //   localStorage.setItem("taskList", JSON.stringify(list));
+  // }, [list]);
 
   return (
     <div className="main-container">
