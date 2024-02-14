@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.task-div{
+    display:flex;
+    justify-content:space-between;
+    /* outline: auto; */
+    margin-bottom: 3%;
+    overflow: hidden;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 166, 0, 0.152);
+    /* border: 1px solid orange; */
+    border-radius: 10px;
+  }
+
+.index-div{
+    /* outline: auto; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 5%
+}
+
+.task-text-div{
+    /* outline:auto; */
+    width: 70%;
+    height: auto;
+    max-height: 100%;
+    display: inline-block;
+    word-wrap: break-word;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.task-buttons{
+    width: 18%;
+    display: flex;
+    justify-content:space-between;
+    /* outline: auto; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+
+.edit{
+    /* outline: auto; */
+    width: fit-content;
+    height: fit-content;
+  }
+  
+.delete{
+    background-color : red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width :35%;
+    border-radius: 0px;
+    height: fit-content;
+   }
